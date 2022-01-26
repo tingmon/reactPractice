@@ -1,0 +1,24 @@
+.navi {
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	background-color: tomato;
+}
+
+.navitem {
+	float: left;
+}
+
+a .navitem {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+a:hover .navitem {
+	background-color: cornflowerblue;
+}
