@@ -3,7 +3,7 @@
 # What is this app
 
 - This application is my personal project to study how to use React.js.
-- It fetches some API, Movie API and Crypto Currency API then display the information.
+- It fetches Movie API and Crypto Currency API then display the information.
 - I Also made simple todo page to practice getting input and displaying output.
 
 # How to run project
