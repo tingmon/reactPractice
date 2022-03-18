@@ -1,3 +1,49 @@
+# User Manual for INFO2300 Individual Assignment 3
+
+# What is this app
+
+- This application is my personal project to study how to use React.js.
+- It fetches some API, Movie API and Crypto Currency API then display the information.
+- I Also made simple todo page to practice getting input and displaying output.
+
+# How to run project
+
+1. Run project on your localhost
+   - Open reactmovie project folder on Visual Studio Code.
+   - Open Terminal then enter "npm install".
+   - After install, enter "npm start" to run the project.
+2. Run project on web
+   - Open your web browser.
+   - Enter "https://tingmon.github.io/reactPractice/" in address bar
+   - Hit enter to visit the website.
+
+# How to use this application
+
+0. Navigation
+
+   - On top of the page, there is a navigation which help user to traverse page more easily.
+   - It has three tabs, "Movie", "Cataclysmic Coin Calamity", "Task To Do".
+   - Click the tab that you want to visit
+
+1. Movie API
+
+   - Movie api page is the homepage of this website.
+   - Movie information list is showing movies that has rate more than 8.7, ordered by latest year.
+   - User can see more details about movie by selecting poster image or title.
+   - Under description of detail page, download link may populate if possible.
+
+2. Coin API
+
+   - Click "Cataclysmic Coin Calamity" on the tab to visit coin api page.
+   - Coin page displays coin symbol, name and price.
+   - User can search coin by entering coin symbol in search bar.
+   - Search result will be shown above list of coins.
+
+3. Todo
+   - Click "Task To Do" on the tab to visit todo list page.
+   - Enter user's task in text input bar then click "Add task" button.
+   - Page will display the list of tasks as user keep adding some tasks.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
