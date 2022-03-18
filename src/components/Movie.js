@@ -9,7 +9,11 @@ function Movie({ movie }) {
 				<h2>Title: {movie.title}</h2>
 			</Link>
 			<h3>Year: {movie.year} </h3>
-			<p>{movie.summary}</p>
+			<p>
+				{movie.summary.length > 235
+					? `${movie.summary.slice(0, 235)} ...`
+					: movie.summary}
+			</p>
 			<ul>
 				{movie.genres && movie.genres.map((item) => <li key={item}>{item}</li>)}
 			</ul>
